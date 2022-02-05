@@ -445,8 +445,8 @@ section .title::after{
 }
 
 /* contact section styling */
-.form .contact .title::after{
-    content: "let's play";
+.contact .title::after{
+    content:"let's play";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
