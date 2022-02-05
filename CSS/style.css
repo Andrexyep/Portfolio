@@ -385,6 +385,13 @@ section .title::after{
 .teams .title::after{
     content: "highlighted";
 }
+.teams .title{
+    text-decoration: none;
+    color: #fff;
+}
+.teams .title:hover{
+    color: crimson;
+}
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
