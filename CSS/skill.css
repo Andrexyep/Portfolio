@@ -47,7 +47,7 @@ html{
     color: #fff;
 }
 .skill .title::after{
-    content: "let's play";
+    content: "what i know";
 }
 .skill .skills-content .right .bars{
     margin-bottom: 15px;
@@ -106,8 +106,14 @@ html{
     color: #fff;
     margin-bottom: 20px;
 }
+.skill .image{
+    display: inline-block;
+}
+.skill .image img{
+    margin-left: 58px;
+}
 
-.skill .testo{
+.skill .small-box{
     align-content: center;
     border-radius: 5px;
     margin-top: 80px;
@@ -116,11 +122,12 @@ html{
     padding: 40px;
     background-color: #202020;
 }
-.skill .testo h2{
+.skill .small-box h2{
     color: #fff;
     margin-bottom: 20px;
 }
-.skill .testo p{
+.skill .small-box p{
     color: #fff;
     margin-bottom: 20px;
+    margin: 0 auto;
 }
