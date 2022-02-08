@@ -94,3 +94,7 @@ html{
 .skills-content .right .mysql::before{
     width: 90%;
 }
+.skill .txt p{
+    color: #fff;
+    
+}
