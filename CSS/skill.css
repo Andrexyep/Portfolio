@@ -94,7 +94,33 @@ html{
 .skills-content .right .mysql::before{
     width: 90%;
 }
-.skill .txt p{
+.skill .type-skill{
+    display: inline-block;
+    padding: 40px;
+    background-color: #202020;
+    margin-left: 58px;
+    border-radius: 5px;
+}
+
+.skill .type-skill h2{
     color: #fff;
-    
+    margin-bottom: 20px;
+}
+
+.skill .testo{
+    align-content: center;
+    border-radius: 5px;
+    margin-top: 80px;
+    width: 480px;
+    margin-left: 58px;
+    padding: 40px;
+    background-color: #202020;
+}
+.skill .testo h2{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.skill .testo p{
+    color: #fff;
+    margin-bottom: 20px;
 }
