@@ -102,10 +102,16 @@ margin-bottom: 10px;
 .skill .experience-content .experience .left a{
 color: crimson;
 }
+.skill .experience-content .experience .left a:hover{
+    text-decoration: underline;
+    text-decoration-color: crimson;
+    text-decoration-thickness: 2px;
+ }
 .skill .experience-content .experience .left p{
     line-height: 35px;
     word-spacing: 7px;
 }
+
 .skill .experience-content .experience {
     text-align: center;
     align-items: center;
