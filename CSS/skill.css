@@ -79,38 +79,3 @@ margin-bottom: 10px;
 .skill .skill-content .Application{
     margin-left: 200px;
 }
-
-/*experience*/
-.skill .experience-content{
-    color: #fff;
-    margin-left: 100px;
-    margin-top: 30px;
-}
-.skill .experience-content h2{
-    font-size: 50px;
-    margin-bottom: 20px;
-}
-.skill .experience-content .experience{
-    display: inline-flex;
-}
-.skill .experience-content .experience .left{
-    width: 55%;
-}
-.skill .experience-content .experience .right{
-    width: 45%;
-}
-.skill .experience-content .experience .left a{
-color: crimson;
-}
-.skill .experience-content .experience .left p{
-    line-height: 35px;
-    word-spacing: 7px;
-}
-.skill .experience-content .experience {
-    text-align: center;
-    align-items: center;
-    }
-    .skill .experience-content .experience .right{
-        font-size: 30px;
-        margin-bottom: 20px;
-    }
