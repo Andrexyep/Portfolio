@@ -110,7 +110,7 @@ color: crimson;
     text-align: center;
     align-items: center;
     }
-    .skill .experience-content .experience .right{
-        font-size: 30px;
-        margin-bottom: 20px;
-    }
+.skill .experience-content .experience .right{
+font-size: 30px;    
+margin-bottom: 20px;
+}    
