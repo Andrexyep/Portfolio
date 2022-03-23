@@ -34,6 +34,12 @@ html{
     margin-bottom: 20px;
     font-size: 20px;
 }
+.gamedetail .sub-title{
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
 .gamedetail .publish{
     display: inline-flex;
     margin-top: 50px;
@@ -42,14 +48,14 @@ html{
 .gamedetail .publish .download{
     text-align: center;
 }
-.gamedetail .publish .download a{
+.gamedetail .publish .download .link-download a{
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     text-decoration: underline;
     text-decoration-thickness: 500;
 }
-.gamedetail .publish .download a:hover{
+.gamedetail .publish .download .link-download a:hover{
     color: crimson;
     text-decoration-color: crimson;
 }
@@ -58,5 +64,19 @@ html{
     margin-left: 100px;
 }
 .gamedetail .publish .video{
-    margin-left: 210px;
+    margin-left: 230px;
+}
+.gamedetail .detail{
+    margin-top: 30px;
+    display: inline-flex;
+}
+.gamedetail .detail .left{
+    width: 55%;
+    color: #fff;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+.gamedetail .detail .right{
+    text-align: center;
+    width: 45%;
 }
