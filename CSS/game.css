@@ -12,7 +12,7 @@ html{
 }
 
 /* all similar content styling codes */
-.about, .services, .skills, .game, .contact, footer{
+.about, .services, .skills, .game, .contact, .footer{
     font-family: 'Poppins', sans-serif;
 }
 
