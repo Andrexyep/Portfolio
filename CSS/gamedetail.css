@@ -22,9 +22,41 @@ html{
     background-size: cover;
     background-attachment: fixed;
 }
-.gamedetail h2{
+.gamedetail h1{
     color: #fff;
     margin-top: 4vh;
     font-size: 40px;
     text-align: center;
+}
+.gamedetail h2{
+    color: #fff;
+    margin-top: 4vh;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.gamedetail .publish{
+    display: inline-flex;
+    margin-top: 50px;
+    align-items: center;
+}
+.gamedetail .publish .download{
+    text-align: center;
+}
+.gamedetail .publish .download a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-thickness: 500;
+}
+.gamedetail .publish .download a:hover{
+    color: crimson;
+    text-decoration-color: crimson;
+}
+.gamedetail .publish .win{
+    text-align: center;
+    margin-left: 100px;
+}
+.gamedetail .publish .video{
+    margin-left: 210px;
 }
