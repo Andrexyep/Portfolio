@@ -168,7 +168,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background-image: url('../Images/home.Section.jpg') ;
+    background-image: url('../Images/pexel1.jpg') ;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -215,6 +215,46 @@ section .title::after{
     color: crimson;
     background-color: #fff;
 }
+
+/* shot section styling */
+.shot{
+    display: flex;
+    background-image: url('../Images/fab.png') ;
+    height: 100vh;
+    color: #fff;
+    min-height: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+.shot .shot-content .button{
+    width: 60px;
+    height: 20px;
+    
+}
+.shot .shot-content{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.shot .background-1{
+    background-image: url('../Images/fab.png') ;
+}
+.shot .shot-width{
+  width: 100%;
+  display: flex;
+}
+.shot .max-width .row{
+  margin-right: 0;
+}
+.shot .shot-content .text-1{
+    font-size: 27px;
+}
+.shot .shot-content .text-2{
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
 
 /* about section styling */
 .about .title::after{
@@ -310,17 +350,29 @@ section .title::after{
 
 .skills .title::after{
     content: "what i know";
+    background: #111
+}
+.skills .title{
+    color: #fff;
+}
+.skills{
+    background: #111;
+}
+.skills .title::before{
+    background: #fff;
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
 .skills .skills-content .left .text{
+    color: #fff;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 .skills .skills-content .left p{
     text-align: justify;
+    color: #fff;
 }
 .skills .skills-content .left a{
     display: inline-block;
@@ -338,48 +390,24 @@ section .title::after{
     color: crimson;
     background: none;
 }
-.skills .skills-content .right .bars{
+.skills .skills-content .right .img{
     margin-bottom: 15px;
 }
-.skills .skills-content .right .info{
-    display: flex;
-    margin-bottom: 5px;
-    align-items: center;
-    justify-content: space-between;
+.skills .skills-content .right .image-top{
+    display: inline-flex;
+    margin-bottom: 30px;
 }
-.skills .skills-content .right span{
-    font-weight: 500;
-    font-size: 18px;
+.skills .skills-content .right .img1{
+    margin-left: 30px;
 }
-.skills .skills-content .right .line{
-    height: 5px;
-    width: 100%;
-    background: lightgrey;
-    position: relative;
+.skills .skills-content .right .img2{
+    margin-left: 30px;
 }
-.skills .skills-content .right .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: crimson;
+.skills .skills-content .right .img0{
+    margin-left: 45px;
 }
-.skills-content .right .html::before{
-    width: 90%;
-}
-.skills-content .right .css::before{
-    width: 40%;
-}
-.skills-content .right .js::before{
-    width: 70%;
-}
-.skills-content .right .php::before{
-    width: 40%;
-}
-.skills-content .right .mysql::before{
-    width: 90%;
-}
+
+
 
 /* teams section styling */
 .teams .title::after{

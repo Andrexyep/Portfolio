@@ -15,8 +15,8 @@ html{
 .about, .services, .skill, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
+
 .skill .title::before{
-    content: "";
     position: absolute;
     bottom: 0px;
     left: 50%;
@@ -43,91 +43,50 @@ html{
     background-attachment: fixed;
 }
 .skill .title{
-    margin-top: 8vh;
+    margin-top: 4vh;
     color: #fff;
 }
 .skill .title::after{
     content: "what i know";
 }
-.skill .skills-content .right .bars{
-    margin-bottom: 15px;
-    width: 400px;
-}
-.skill .skills-content .right .info{
+.skill .skill-content{
+    display: inline-flex;
+    margin-left: 200px;
     color: #fff;
-    display: flex;
-    margin-bottom: 5px;
-    align-items: center;
-    justify-content: space-between;
 }
-.skill .skills-content .right span{
+.skill .skill-content .left .point{
+    display: inline-flex;
+}
+
+.skill .skill-content p{
+    font-size: 30px;
     font-weight: 500;
-    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
 }
-.skill .skills-content .right .line{
-    height: 5px;
-    width: 100%;
-    background: lightgrey;
-    position: relative;
+.skill .skill-content .left li{
+margin-bottom: 10px;
 }
-.skill .skills-content .right .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: crimson;
+.skill .skill-content .left ul{
+    margin-bottom: 40px;
+    }
+.skill .skill-content .left .point .ul1{
+        margin-left: 150px;
+    }
+.skill .skill-content .left .point .ul2{
+    margin-left: 130px;
+}
+.skill .skill-content .Application{
+    margin-left: 200px;
 }
 
-.skills-content .right .html::before{
-    width: 90%;
+/*experience*/
+.skill .experience-content{
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 30px;
 }
-.skills-content .right .css::before{
-    width: 40%;
-}
-.skills-content .right .js::before{
-    width: 70%;
-}
-.skills-content .right .php::before{
-    width: 40%;
-}
-.skills-content .right .mysql::before{
-    width: 90%;
-}
-.skill .type-skill{
-    display: inline-block;
-    padding: 40px;
-    background-color: #202020;
-    margin-left: 58px;
-    border-radius: 5px;
+.skill .experience-content h2{
+    font-size: 50px;
 }
 
-.skill .type-skill h2{
-    color: #fff;
-    margin-bottom: 20px;
-}
-.skill .image{
-    display: inline-block;
-}
-.skill .image img{
-    margin-left: 58px;
-}
-
-.skill .small-box{
-    align-content: center;
-    border-radius: 5px;
-    margin-top: 80px;
-    width: 480px;
-    margin-left: 58px;
-    padding: 40px;
-    background-color: #202020;
-}
-.skill .small-box h2{
-    color: #fff;
-    margin-bottom: 20px;
-}
-.skill .small-box p{
-    color: #fff;
-    margin-bottom: 20px;
-    margin: 0 auto;
-}
