@@ -48,14 +48,14 @@ html{
 .gamedetail .publish .download{
     text-align: center;
 }
-.gamedetail .publish .download .link-download a{
+.gamedetail .publish .link-download a{
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     text-decoration: underline;
     text-decoration-thickness: 500;
 }
-.gamedetail .publish .download .link-download a:hover{
+.gamedetail .publish .link-download a:hover{
     color: crimson;
     text-decoration-color: crimson;
 }
@@ -69,6 +69,7 @@ html{
 .gamedetail .detail{
     margin-top: 30px;
     display: inline-flex;
+    align-items: center;
 }
 .gamedetail .detail .left{
     width: 55%;

@@ -70,10 +70,5 @@ $(document).ready(function(){
             }
         }
     })
-    const btn = document.getElementById('btn');
 
-    btn.addEventListener('click', function onClick(event) {
-      // 👇️ change background color
-      document.getElementById('shot').style.backgroundImage =src("home.Section.jpg");
-    })
 });
