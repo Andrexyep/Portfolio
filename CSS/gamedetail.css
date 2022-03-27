@@ -44,6 +44,7 @@ html{
     display: inline-flex;
     margin-top: 50px;
     align-items: center;
+    width: 100%;
 }
 .gamedetail .publish .download{
     text-align: center;

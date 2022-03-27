@@ -51,13 +51,11 @@ html{
 }
 .skill .skill-content{
     display: inline-flex;
-    margin-left: 200px;
     color: #fff;
 }
 .skill .skill-content .left .point{
     display: inline-flex;
 }
-
 .skill .skill-content p{
     font-size: 30px;
     font-weight: 500;
@@ -76,14 +74,16 @@ margin-bottom: 10px;
 .skill .skill-content .left .point .ul2{
     margin-left: 130px;
 }
-.skill .skill-content .Application{
-    margin-left: 200px;
+.skill .skill-content .right{
+    margin-left: 150px;
+    text-align: center;
 }
-
+.skill .skill-content .application{
+    text-align: center;
+}
 /*experience*/
 .skill .experience-content{
     color: #fff;
-    margin-left: 100px;
     margin-top: 30px;
 }
 .skill .experience-content h2{
@@ -109,14 +109,14 @@ color: crimson;
  }
 .skill .experience-content .experience .left p{
     line-height: 35px;
-    word-spacing: 7px;
+    word-spacing: 6px;
 }
 
 .skill .experience-content .experience {
-    text-align: center;
     align-items: center;
     }
 .skill .experience-content .experience .right{
-font-size: 30px;    
+font-size: 35px;    
 margin-bottom: 20px;
+text-align: center;
 }    
