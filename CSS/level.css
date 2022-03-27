@@ -12,13 +12,61 @@ html{
 }
 
 /* all similar content styling codes */
-.about, .services, .skills, .game, .contact, .footer{
+.about, .services, .skills, .level, .contact, .footer{
     font-family: 'Poppins', sans-serif;
 }
-
+section{
+    padding: 100px 0;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
 /* game section styling */
 .level{
-    background-image: url('../Images/home.Section.jpg');
+    background-color: #111;
     background-size: cover;
     background-attachment: fixed;
+}
+.level h1{
+    color: #fff;
+    margin-top: 4vh;
+    font-size: 40px;
+    text-align: center;
+}
+.level h2{
+    color: #fff;
+    margin-top: 4vh;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.level .sub-title{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.level .level-design{
+    margin-top: 120px;
+    display: inline-flex;
+}
+.level .level-design p{
+    color: #fff;
+    line-height: 30px;
+    word-spacing: 3px;
+}
+.level .level-design .right{
+    margin-left: 30px; 
+}
+.level .level-design ul{
+    color: #fff;
+    margin-top: 10px;
+}
+.level .level-design li{
+  margin-top: 10px;
+  text-decoration: underline;
+}
+.level .video{
+    text-align: center;
+    margin-top: 50px;
 }
