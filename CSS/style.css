@@ -10,7 +10,6 @@
 html{
     scroll-behavior: smooth;
 }
-
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -588,7 +587,12 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-
+footer span p{
+    color: crimson;
+    text-decoration: none;
+    display: inline;
+    margin-right: 100px;
+}
 
 /* responsive media query start */
 @media (max-width: 1104px) {

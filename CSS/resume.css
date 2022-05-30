@@ -1,0 +1,122 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* all similar content styling codes */
+.about, .resume, .skill, .contact, footer{
+    font-family: 'Poppins', sans-serif;
+}
+/* resume section styling */
+.resume{
+    background-color: #111;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.resume .h1{
+    color: #fff;
+    font-size: 30px;
+    margin-right: 15px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.resume .pi{
+    margin-top: 15px;
+    display: inline-flex;
+}
+.resume .pi p{
+    color: #fff;
+    font-size:13px;
+    word-spacing: 4px;
+    line-height: 24px;
+    width: 60%;
+}
+.resume .pi .resume-btn{
+    width: 40%;
+    text-align: center;
+}
+.resume .pi .resume-btn a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 25px;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.resume .pi .resume-btn a:hover{
+    color: crimson;
+    background-color: #fff;
+}
+.resume .pi .resume-btn .language{
+    color: #fff;
+    width: 55%;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.resume .pi .resume-btn .language h2{
+    margin-bottom: 10px;
+}
+.resume .pi .info{
+    display: inline-flex;
+    width: 40%;
+    
+}
+.resume .pi .info .info-detail ul{
+    color: crimson;
+    font-weight: 600;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+.resume .pi .info .info-detail li{
+    color: #fff;
+    font-weight: 300;
+    font-size: 13px;
+}
+.resume .pi .hob{
+    width: 60%;
+    color: #fff;
+    font-size:13px;
+    word-spacing: 4px;
+    line-height: 24px;
+
+}
+.resume .pi .hob h2{
+    color: crimson;
+    margin-bottom: 13px;
+}
+.resume .pi .hob li{
+    margin-bottom: 30px;
+}
+.resume .pi .hob li span{
+    font-size: 15px;
+    font-weight: 500px;
+}
+.resume .pi .edu .itis a{
+    color: crimson;
+    font-weight: 500;
+}
+.resume .pi .edu .itis a:hover{
+    text-decoration: underline;
+}
+.resume .pi .edu .itis a span{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: underline;
+}
+.resume .pi .edu .itis p{
+    margin-top: 15px;
+    margin-bottom: 35px;
+    width: 60%;
+}
