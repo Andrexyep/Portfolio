@@ -38,10 +38,10 @@ html{
     font-size:13px;
     word-spacing: 4px;
     line-height: 24px;
-    width: 60%;
+    width: auto;
 }
 .resume .pi .resume-btn{
-    width: 40%;
+    width: 80%;
     text-align: center;
 }
 .resume .pi .resume-btn a{
@@ -119,4 +119,37 @@ html{
     margin-top: 15px;
     margin-bottom: 35px;
     width: 60%;
+}
+.resume .pi ul a span{
+    color: rgba(255, 255, 255, 0.392);
+}
+.resume .pi ul a{
+    color:crimson;
+}
+.resume .pi ul a:hover{
+    text-decoration: underline;
+    
+}
+.resume .pi .info-detail p{
+    margin-bottom: 40px ;
+    color: #fff;
+    
+}
+.resume .pi .game{
+    color: #fff;
+}
+.resume .pi .game h2 a{
+    color: crimson;
+}
+.resume .pi .game h3 span{
+    color: rgba(255, 255, 255, 0.342);
+    font-weight: 300;
+    font-size: 16px;
+}
+.resume .pi .game h3{
+    margin-bottom: 5px;
+}
+.resume .pi .game  li{
+    font-size: 13px;
+    margin-bottom: 5px;
 }
