@@ -30,7 +30,7 @@ html{
 }
 .combat .subtitle {
     color: #fff;
-    margin-top: -8vh;
+    margin-top: -9vh;
     margin-bottom: 20px;
     font-size: 20px;
     text-align: center;
@@ -45,9 +45,10 @@ html{
     font-size: 25px;
 }
 .combat .h4{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .combat .box{
+    margin-top: 5px;
     display: inline-flex;
 }
 .combat .box .left{
@@ -59,13 +60,16 @@ html{
     width: 40%;
     margin-left: 80px;
 }
+.combat .box .left .ul{
+margin-top: 20px;
+}
 .combat .box .left1{
     color: #fff;
-    width: 30%;
+    width: 50%;
 }
 .combat .box .right1{
     color: #fff;
-    width: 70%;
+    width: 50%;
     margin-left: 80px;
 }
 .combat a{
@@ -73,4 +77,40 @@ html{
 }
 .combat a:hover{
     text-decoration: underline;
+}
+.combat .box .right1 ul{
+    font-size: 13px;
+    word-spacing: 2px;
+    line-height: 24px;
+}
+.combat .box .right1 ul li span{
+    color: crimson;
+    font-size: 15px;
+    font-weight: 600;
+}
+.combat iframe{
+    margin-top: 15px;
+}
+.combat ul{
+    color: #fff;
+    font-size: 15px;
+    word-spacing: 2px;
+    line-height: 24px;
+}
+.combat .li{
+margin-top: 15px;
+}
+.combat li b{
+    text-decoration: underline;
+}
+.combat p span{
+    color: #fff;
+    font-weight: 800;
+}
+.combat p{
+    margin-top: 10px;
+    color: #fff;
+}
+.combat .iframe{
+    text-align: center;
 }
