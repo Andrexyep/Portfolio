@@ -123,3 +123,7 @@ text-align: center;
 .skill span{
     color: #fff;
 }
+.skill .skill-content .right .application .img{
+    margin-bottom: 35px;
+
+}

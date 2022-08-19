@@ -62,7 +62,7 @@ section{
     color: #fff;
     margin-top: 10px;
 }
-.level .level-design li{
+.level .level-design .li{
   margin-top: 10px;
   text-decoration: underline;
 }
